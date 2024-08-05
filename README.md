@@ -122,68 +122,73 @@ Advanced Threat Protection (ATP) is an integral part of Microsoft’s security o
 
 ---
 
-## DFIR / IR Best Practices
-
-Effective Digital Forensics and Incident Response (DFIR) is crucial for handling and mitigating security incidents. Here are some best practices to consider:
+## DFIR / IR Best Practices Checklist
 
 ### Incident Response Process
 
-1. **Preparation**
-   - Develop and maintain an incident response plan.
-   - Conduct regular training and simulations for the response team.
-   - Ensure all team members have clear roles and responsibilities.
+#### Preparation
+- [ ] **Develop an Incident Response Plan (IRP):** Ensure your IRP is comprehensive, up-to-date, and accessible.
+- [ ] **Establish an Incident Response Team (IRT):** Clearly define roles and responsibilities.
+- [ ] **Conduct Regular Training:** Perform drills and simulations to keep the team prepared.
+- [ ] **Inventory Assets:** Maintain a current list of all assets, including hardware, software, and network devices.
+- [ ] **Implement Security Controls:** Ensure baseline security measures are in place and effective.
 
-2. **Identification**
-   - Monitor systems and networks for suspicious activities.
-   - Use tools to detect anomalies, intrusions, or unauthorized access.
-   - Verify and classify potential incidents based on severity and impact.
+#### Identification
+- [ ] **Monitor Systems and Networks:** Use Security Information and Event Management (SIEM) tools to detect anomalies.
+- [ ] **Alert Evaluation:** Analyze alerts to determine the validity and severity of potential incidents.
+- [ ] **Classify the Incident:** Categorize the incident based on impact and urgency.
+- [ ] **Document Initial Findings:** Record initial observations and evidence related to the incident.
 
-3. **Containment**
-   - Implement measures to prevent further damage and spread of the threat.
-   - Use network segmentation and isolation techniques.
-   - Preserve evidence for further analysis.
+#### Containment
+- [ ] **Immediate Containment:** Apply temporary measures to prevent further damage (e.g., isolating affected systems).
+- [ ] **Determine Containment Strategy:** Choose between short-term (e.g., disconnecting network access) and long-term strategies (e.g., implementing patches).
+- [ ] **Preserve Evidence:** Ensure digital evidence is collected and preserved in its original state.
+- [ ] **Implement Network Segmentation:** Restrict network access to prevent the lateral movement of threats.
 
-4. **Eradication**
-   - Identify the root cause of the incident.
-   - Remove malicious artifacts and apply necessary patches.
-   - Strengthen security measures to prevent recurrence.
+#### Eradication
+- [ ] **Identify Root Cause:** Analyze evidence to find the root cause of the incident.
+- [ ] **Remove Malicious Artifacts:** Delete malware, unauthorized access points, or compromised credentials.
+- [ ] **Apply Patches and Updates:** Ensure all systems are updated with the latest security patches.
+- [ ] **Perform Vulnerability Scans:** Verify that vulnerabilities have been remediated.
 
-5. **Recovery**
-   - Restore affected systems and services to normal operation.
-   - Validate systems for integrity and functionality.
-   - Monitor for signs of weakness or further attacks.
+#### Recovery
+- [ ] **Restore Systems and Services:** Bring affected systems back online in a secure manner.
+- [ ] **Validate System Integrity:** Conduct checks to ensure systems function correctly post-recovery.
+- [ ] **Monitor for Recurrence:** Continue to monitor systems for any signs of further compromise.
+- [ ] **Communicate with Stakeholders:** Inform relevant parties of recovery status and any changes made.
 
-6. **Lessons Learned**
-   - Conduct a post-incident review to analyze the response.
-   - Document findings and update the incident response plan.
-   - Improve processes based on lessons learned.
+#### Lessons Learned
+- [ ] **Conduct a Post-Incident Review:** Analyze the response process to identify strengths and weaknesses.
+- [ ] **Document the Incident:** Record details, actions taken, and lessons learned for future reference.
+- [ ] **Update the Incident Response Plan:** Make improvements based on findings from the review.
+- [ ] **Share Findings:** Communicate lessons learned with the broader organization to enhance security awareness.
 
 ### DFIR Best Practices
 
-- **Evidence Handling**
-  - Follow strict chain-of-custody procedures for evidence integrity.
-  - Use forensic tools to capture and analyze data without altering it.
-  - Secure physical and digital evidence storage.
+#### Evidence Handling
+- [ ] **Chain of Custody:** Maintain detailed records of evidence collection, storage, and handling.
+- [ ] **Use Forensic Tools:** Utilize reliable tools to analyze data without altering it.
+- [ ] **Secure Evidence Storage:** Ensure physical and digital evidence is stored securely and access is restricted.
 
-- **Communication**
-  - Maintain clear communication with all stakeholders during incidents.
-  - Provide timely updates on incident status and response efforts.
-  - Coordinate with external entities like law enforcement if needed.
+#### Communication
+- [ ] **Establish Communication Channels:** Use predefined channels for incident communications.
+- [ ] **Provide Regular Updates:** Keep stakeholders informed with timely and accurate information.
+- [ ] **Coordinate with External Entities:** Engage with law enforcement or third-party experts if necessary.
 
-- **Threat Intelligence**
-  - Integrate threat intelligence into the incident response process.
-  - Use intelligence to anticipate threats and enhance defenses.
-  - Share intelligence with trusted partners and communities.
+#### Threat Intelligence
+- [ ] **Integrate Threat Intelligence:** Use intelligence feeds to inform and enhance the incident response process.
+- [ ] **Analyze Threat Data:** Understand the nature and behavior of threats to inform response strategies.
+- [ ] **Share Intelligence:** Collaborate with trusted partners and communities to share threat information.
 
-- **Documentation**
-  - Keep detailed records of all actions and decisions during incidents.
-  - Use standardized forms and templates for consistent reporting.
-  - Ensure documentation is accessible for future reference and audits.
+#### Documentation
+- [ ] **Keep Detailed Records:** Document all actions, decisions, and evidence throughout the incident lifecycle.
+- [ ] **Use Standardized Templates:** Ensure consistency in documentation using predefined templates.
+- [ ] **Maintain Accessibility:** Store documentation in a manner that is accessible for future reference and audits.
 
-- **Continuous Improvement**
-  - Regularly review and update incident response procedures.
-  - Conduct after-action reviews and implement feedback.
-  - Stay informed about emerging threats and DFIR techniques.
+#### Continuous Improvement
+- [ ] **Regularly Review Procedures:** Schedule periodic reviews of incident response procedures.
+- [ ] **Implement Feedback:** Use insights from incidents to improve processes and capabilities.
+- [ ] **Stay Informed:** Keep up-to-date with the latest threats and DFIR techniques.
 
 ---
 
