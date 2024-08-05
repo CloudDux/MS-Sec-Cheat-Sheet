@@ -1,6 +1,6 @@
-# Microsoft Security Suite Guide
+# Microsoft Security Cheat Sheet
 
-Welcome to the **Microsoft Security Suite Guide**! This repository is designed to provide you with comprehensive resources, cheat sheets, how-tos, and expert advice on using Microsoft's powerful security tools, including Microsoft Sentinel, Microsoft Defender, and more.
+Welcome to the **Microsoft Security Suite Cheat Sheet**! This repository is designed to provide you with some great resources and cheat sheets on using Microsoft's powerful security tools, including Microsoft Sentinel, Microsoft Defender, and Microsoft Unified Security Operations Center.
 
 ---
 
