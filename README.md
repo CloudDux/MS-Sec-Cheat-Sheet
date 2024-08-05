@@ -19,9 +19,12 @@ Welcome to the **Microsoft Security Suite Guide**! This repository is designed t
    - [Defender for Identity](#defender-for-identity)
    - [Defender for Cloud](#defender-for-cloud)
    - [Advanced Threat Protection](#advanced-threat-protection)
-5. [Security Best Practices](#security-best-practices)
-6. [Resources](#resources)
-7. [License](#license)
+5. [DFIR / IR Best Practices](#dfir--ir-best-practices)
+   - [Incident Response Process](#incident-response-process)
+   - [DFIR Best Practices](#dfir-best-practices)
+6. [Security Best Practices](#security-best-practices)
+7. [Resources](#resources)
+8. [License](#license)
 
 ---
 
@@ -119,6 +122,71 @@ Advanced Threat Protection (ATP) is an integral part of Microsoft’s security o
 
 ---
 
+## DFIR / IR Best Practices
+
+Effective Digital Forensics and Incident Response (DFIR) is crucial for handling and mitigating security incidents. Here are some best practices to consider:
+
+### Incident Response Process
+
+1. **Preparation**
+   - Develop and maintain an incident response plan.
+   - Conduct regular training and simulations for the response team.
+   - Ensure all team members have clear roles and responsibilities.
+
+2. **Identification**
+   - Monitor systems and networks for suspicious activities.
+   - Use tools to detect anomalies, intrusions, or unauthorized access.
+   - Verify and classify potential incidents based on severity and impact.
+
+3. **Containment**
+   - Implement measures to prevent further damage and spread of the threat.
+   - Use network segmentation and isolation techniques.
+   - Preserve evidence for further analysis.
+
+4. **Eradication**
+   - Identify the root cause of the incident.
+   - Remove malicious artifacts and apply necessary patches.
+   - Strengthen security measures to prevent recurrence.
+
+5. **Recovery**
+   - Restore affected systems and services to normal operation.
+   - Validate systems for integrity and functionality.
+   - Monitor for signs of weakness or further attacks.
+
+6. **Lessons Learned**
+   - Conduct a post-incident review to analyze the response.
+   - Document findings and update the incident response plan.
+   - Improve processes based on lessons learned.
+
+### DFIR Best Practices
+
+- **Evidence Handling**
+  - Follow strict chain-of-custody procedures for evidence integrity.
+  - Use forensic tools to capture and analyze data without altering it.
+  - Secure physical and digital evidence storage.
+
+- **Communication**
+  - Maintain clear communication with all stakeholders during incidents.
+  - Provide timely updates on incident status and response efforts.
+  - Coordinate with external entities like law enforcement if needed.
+
+- **Threat Intelligence**
+  - Integrate threat intelligence into the incident response process.
+  - Use intelligence to anticipate threats and enhance defenses.
+  - Share intelligence with trusted partners and communities.
+
+- **Documentation**
+  - Keep detailed records of all actions and decisions during incidents.
+  - Use standardized forms and templates for consistent reporting.
+  - Ensure documentation is accessible for future reference and audits.
+
+- **Continuous Improvement**
+  - Regularly review and update incident response procedures.
+  - Conduct after-action reviews and implement feedback.
+  - Stay informed about emerging threats and DFIR techniques.
+
+---
+
 ## Security Best Practices
 
 - **Multi-Factor Authentication (MFA):** Enable MFA for all users.
@@ -134,6 +202,10 @@ Advanced Threat Protection (ATP) is an integral part of Microsoft’s security o
 - [Microsoft Security Documentation](https://docs.microsoft.com/en-us/microsoft-365/security/)
 - [Azure Sentinel Documentation](https://docs.microsoft.com/en-us/azure/sentinel/)
 - [Microsoft Defender for Endpoint Documentation](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/)
+- [Incident Response Guide by NIST](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+- [Digital Forensics Resource Center](https://www.sans.org/digital-forensics/)
+
+---
 
 ## License
 
