@@ -59,7 +59,7 @@ Microsoft's security suite offers a range of tools and capabilities designed to 
 
 ### KQL
 
-**Kusto Query Language (KQL)** is the primary query language for Microsoft Sentinel, it is a powerful querying language for querying data and systems in your environment and can be used in Threat Hunting capabilities.
+**Kusto Query Language (KQL)** is the primary query language for Microsoft Sentinel, it is a powerful querying language for querying data and systems in your environment and can be used in Threat Hunting capabilities or to create detection rules.
 
 ### Threat Hunting
 **Threat hunting** in Microsoft Sentinel involves proactively searching through logs and data for suspicious activities. Here's how you can start:
