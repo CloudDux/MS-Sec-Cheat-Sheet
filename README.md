@@ -21,8 +21,7 @@ Welcome to the **Microsoft Security Suite Guide**! This repository is designed t
    - [Advanced Threat Protection](#advanced-threat-protection)
 5. [Security Best Practices](#security-best-practices)
 6. [Resources](#resources)
-7. [Contributing](#contributing)
-8. [License](#license)
+7. [License](#license)
 
 ---
 
